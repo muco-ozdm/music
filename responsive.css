@@ -1,0 +1,151 @@
+@media(max-width: 700px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: #212529;
+    }
+    .d-block{
+        height: 609px;
+    }
+    #demo{
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        top: 0;
+    }
+    .card{
+        margin-top: 25%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .card-2{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .music{
+        margin-top: 30%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    .music span{
+        font-size: 24px;
+        position: relative;
+        margin-top: 0px;
+        color: white;
+    }
+    .btn{
+        transition: 0.8s;
+        width: 72px;
+    }
+    .form-control{
+        transition: 0.5s;
+    }
+    .form-control:hover{
+        border-color: #00ff99;
+        border-width: 2px;
+    }
+    .loader-container {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background: #000
+            url("gif.gif") center
+            no-repeat;
+        z-index: 1;
+    }
+    .spinner {
+        width: 64px;
+        height: 64px;
+        border: 8px solid;
+        border-color: #3d5af1 transparent #3d5af1 transparent;
+        border-radius: 50%;
+        animation: spin-anim 1.2s linear infinite;
+    }
+    
+    @keyframes spin-anim {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .loader-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #000;
+        z-index: 1;
+    }
+    .lgn{
+        margin: 50% 15%;
+        position: absolute;
+        top: 0%;
+        width: 60%;
+    }
+    .lgninp{
+        background-color: rgba(255, 255, 255, 0.164);
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        color: black;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    #inp1{
+        position: relative;
+        top: -20px;
+    }
+    .lgninp::placeholder{
+        color: black;
+    }
+    .lgnbtn{
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        margin-left: 25%;
+        border: 2px solid white;
+        width: 60%;
+        color: white;
+    }
+    .lgnbtn a{
+        text-decoration: none;
+        color: white;
+        width: 100%;
+    }
+    .lgndiv{
+        margin: 10% 35%;
+        border-radius: 10px;
+        position: absolute;
+        top: 0%;
+        background-color: rgba(255, 255, 255, 0.66);
+        width: 400px;
+        height: 400px;
+        box-shadow: 3px 3px 5px black;
+        display: none;
+    }
+    .lgndiv h1{
+        text-align: center;
+    }
+    .slide{
+        display: none;
+    }
+    .lgn-yazı{
+        color: white;
+        font-size: 32px;
+        margin: 20% 15%;
+        text-align: center;
+    }
+}

@@ -1,147 +1,19 @@
-@media(min-width: 700px){
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.slide{
-    position: fixed;
-    height: 100%;
-}
-.d-block{
-    height: 100vh;
-}
-#demo{
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-}
-.navbar{
-    position: fixed;
-    z-index: 3;
-    width: 100%;
-    height: 7%;
-}
-.card{
-    position: absolute;
-    left: 25%;
-    top: 30%;
-}
-.card-2{
-    position: absolute;
-    left: 50%;
-    top: 30%;
-}
-.music{
-    position: absolute;
-    top: 40%;
-    left: 35%;
-}
-.music span{
-    font-size: 24px;
-    position: relative;
-    margin-top: 0px;
-    color: white;
-}
-.btn{
-    transition: 0.8s;
-    width: 72px;
-}
-.form-control{
-    transition: 0.5s;
-}
-.form-control:hover{
-    border-color: #00ff99;
-    border-width: 2px;
-}
-.loader-container {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: #000
-        url("gif.gif") center
-        no-repeat;
-    z-index: 1;
-}
-.spinner {
-    width: 64px;
-    height: 64px;
-    border: 8px solid;
-    border-color: #3d5af1 transparent #3d5af1 transparent;
-    border-radius: 50%;
-    animation: spin-anim 1.2s linear infinite;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
 }
 
-@keyframes spin-anim {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
 }
-.loader-container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background: #000;
-    z-index: 1;
-}
-.lgn{
-    margin: 22% 43%;
-    position: absolute;
-    top: 0%;
-}
-.lgninp{
-    background-color: rgba(0, 0, 0, 0.164);
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    color: black;
-}
-.lgninp::placeholder{
-    color: black;
-}
-.lgnbtn{
-    border: none;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 10px;
-    margin-left: 27%;
-    border: 2px solid black;
-    width: 50%;
-}
-.lgnbtn a{
-    text-decoration: none;
-    color: black;
-}
-.lgndiv{
-    margin: 10% 35%;
-    border-radius: 10px;
-    position: absolute;
-    top: 0%;
-    background-color: rgba(255, 255, 255, 0.66);
-    width: 400px;
-    height: 400px;
-    box-shadow: 3px 3px 5px black;
-}
-.lgndiv h1{
-    text-align: center;
-}
-.lgn-yazı{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
 
 h1 {
 	font-weight: bold;
@@ -376,9 +248,4 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
-}
-.fa-solid{
-    font-size: 24px;
-    margin-left: 100%;
-}
 }

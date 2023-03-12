@@ -5,6 +5,7 @@
 }
 .slide{
     position: fixed;
+	top: 0%;
     height: 100%;
 }
 .d-block{
@@ -131,6 +132,9 @@
 }
 .lgn-yazı{
     display: none;
+}
+.form-inline{
+	background-color: #dddddd00;
 }
 
 
